@@ -561,6 +561,14 @@ main() {
     say "Optional: if you no longer need more than one site, you can now turn off Multi-Site Management in Settings > System > Site Management."
     say ""
   fi
+  say "${C_YEL}${C_BLD}YOU ARE NOT DONE YET. Finish the migration:${C_OFF}"
+  say "  1. Old server: select your site, Settings > System > Site Management > Export Site."
+  say "     Skip the export and go to the device migration step."
+  say "  2. Enter this server's inform address (copy it on the Overview tab, where the site status is)."
+  say "  3. Wait until every device shows Connected on this server."
+  say "  4. Only then clean up the old server. Forget factory-resets any device that can still reach it."
+  say "  5. Take a fresh backup on this server."
+  say ""
   say "Thanks for using me. Bye! <3"
 }
 
