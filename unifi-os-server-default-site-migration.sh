@@ -566,8 +566,6 @@ main() {
   say "     Skip the export and go to the device migration step."
   say "  2. Enter this server's inform address (copy it on the Overview tab, where the site status is)."
   say "  3. Wait until every device shows Connected on this server."
-  say "  4. Only then clean up the old server. Forget factory-resets any device that can still reach it."
-  say "  5. Take a fresh backup on this server."
   say ""
   say "Thanks for using me. Bye! <3"
 }
