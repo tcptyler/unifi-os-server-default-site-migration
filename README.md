@@ -50,7 +50,7 @@ If no site besides Default is found, the script asks whether you imported it. If
 ## After the script: finish the migration
 
 1. **Check the new server.** In the UniFi Network UI, the URL path should show `default`, and your site's networks, WiFi networks and device records should all be there.
-2. **Move your devices.** On the old server, select your site, open **Settings > System > Site Management > Export Site** again, skip the export, and go to the device migration step. Enter the new UniFi OS Server's inform address. Your devices move over without re-adoption, because the site export already carried their device records.
+2. **Move your devices.** On the old server, select your site, open **Settings > System > Site Management > Export Site** again, skip the export, and go to the device migration step. Enter the new UniFi OS Server's inform address (copy it on the new server's **Overview** tab, where the site status is shown). Your devices move over without re-adoption, because the site export already carried their device records.
 3. **Confirm every device shows Connected** on the new server.
 4. **Clean up the old server only after that.** Remove the site or forget its devices on the old server only once no device still informs it. **Forget factory-resets any device that can still reach the old server.**
 5. **Take a fresh backup** on the new server: **Settings > Control Plane > Backups**.
