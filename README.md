@@ -69,6 +69,6 @@ UniFi OS Server 5.1.42 (linux-arm64), official installer, on Ubuntu 26.04.1 LTS,
 
 ## Credits
 
-Method from the Ubiquiti Community Wiki guide [Changing the Default Site in UniFi](https://ubntwiki.com/guides/changing_the_default_site_in_unifi), which credits @ckd in the unofficial Ubiquiti Discord.
+Based on the Ubiquiti Community Wiki guide [Changing the Default Site in UniFi](https://ubntwiki.com/guides/changing_the_default_site_in_unifi), which credits @ckd in the unofficial Ubiquiti Discord. That guide is written for the standalone UniFi Network application; this script adapts it for UniFi OS Server, where UniFi Network runs in a rootless podman container.
 
 Not affiliated with or endorsed by Ubiquiti Inc. UniFi is a trademark of Ubiquiti Inc.
